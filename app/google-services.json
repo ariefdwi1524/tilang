@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "374956091831",
+    "firebase_url": "https://tilang-28ea6.firebaseio.com",
+    "project_id": "tilang-28ea6",
+    "storage_bucket": "tilang-28ea6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374956091831:android:dc2c77c79ff410a63b6032",
+        "android_client_info": {
+          "package_name": "com.example.tilangonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374956091831-ts1mqj5r0ci6vt92oho05lq4368mb3tl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tilangonline",
+            "certificate_hash": "b4f98aa0065d001f8bff20735adf36837a274537"
+          }
+        },
+        {
+          "client_id": "374956091831-sqegt7d21vusc7urqvnhrg9el0kfbg0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKT7dePkin5eomIajmy5q7inp8ZMV-poI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "374956091831-sqegt7d21vusc7urqvnhrg9el0kfbg0l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

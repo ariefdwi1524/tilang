@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#959494"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterMain">
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/login_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logintregis"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_username"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+        <Button
+            android:id="@+id/logintregis"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="250dp"
+            android:background="@drawable/border_kuning"
+            android:hint="LOGIN"
+            android:text="LOGIN"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_regis"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="175dp"
+        android:backgroundTint="@color/kuning"
+        android:src="@drawable/ic_check_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</RelativeLayout>

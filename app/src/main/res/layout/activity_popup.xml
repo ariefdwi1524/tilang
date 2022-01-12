@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/abuabu"
+    tools:context=".PopupMain">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/abuabu"/>
+            <Button
+                android:id="@+id/btn_mlgrll"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/border_kuning"
+                android:text="melanggar rambu lalu lintas"/>
+            <Button
+                android:id="@+id/btn_tdkhelm"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/border_kuning"
+                android:text="tak mengenakan helm standar"/>
+            <Button
+                android:id="@+id/btn_tdkmjksim"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/border_kuning"
+                android:text="tidak menunjukan sim saat razia"/>
+            <Button
+                android:id="@+id/btn_tdkpkplat"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/border_kuning"
+                android:text="tak dipasangi Tanda Nomor Kendaraan"/>
+            <Button
+                android:id="@+id/btn_mtrtdktkns"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/border_kuning"
+                android:text="motor tidak memenuhi persyaratan teknis"/>
+            <Button
+                android:id="@+id/btn_mbltdktkns"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/border_kuning"
+                android:text="mobil tidak memenuhi persyaratan teknis"/>
+            <Button
+                android:id="@+id/btn_mbltdklengkap"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/border_kuning"
+                android:text="mobil tidak dilengkapi dengan perlengkapan"/>
+            <Button
+                android:id="@+id/btn_mlgrkcptn"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/border_kuning"
+                android:text="melanggar kecepatan paling tinggi atau paling rendah"/>
+            <Button
+                android:id="@+id/btn_tdklkpstnk"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/border_kuning"
+                android:text="tidak dilengkapi STNK Bermotor"/>
+            <Button
+                android:id="@+id/btn_tdkmgnksabuk"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/border_kuning"
+                android:text="pengemudi atau penumpang mobil tak mengenakan sabuk keselamatan"/>
+            <Button
+                android:id="@+id/btn_tdkmmlksim"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/border_kuning"
+                android:text="pengendara tidak memiliki SIM"/>
+            <Button
+                android:id="@+id/btn_lptdknyatamalam"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/border_kuning"
+                android:text="tidak menyalakan lampu utama pada malam hari dan kondisi tertentu"/>
+            <Button
+                android:id="@+id/btn_lptdknyatasiang"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/border_kuning"
+                android:text="tidak menyalakan lampu utama pada siang hari "/>
+            <Button
+                android:id="@+id/btn_lpsein"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/border_kuning"
+                android:text="berbelok atau balik arah tanpa memberi isyarat lampu"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/abuabu"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
